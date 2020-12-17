@@ -19,9 +19,7 @@ def detect_on_image(image: str, threshold: int) -> int:
     :return: number of shapes in the image
     """
     im = cv2.imread(image)
-    cv2.imshow('Original', im)
     im_grey = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
-    cv2.imshow('Grey', im_grey)
 
     canny_output = cv2.Canny(im_grey, threshold, threshold * 2)
     _, contours, hierarchy = cv2.findContours(canny_output, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)

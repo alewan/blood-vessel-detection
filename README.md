@@ -1,7 +1,7 @@
 # Image Detection for Research
 
-This code performs a simple detection of shapes in a set of images using OpenCV.
-This code is on GitHub for sharing with a researcher.
+This code performs a simple detection of shapes in a set of images using OpenCV.<br>
+This is on GitHub so it can be shared with a researcher.
 
 ### Quickstart Usage
 - Ensure requirements are installed
@@ -11,6 +11,6 @@ This code is on GitHub for sharing with a researcher.
 - Type `python ./bulk_detection.py`
 
 ### Requirements
-Python 3.x
-OpenCV
+Python 3.x,
+OpenCV,
 numpy (for plots in sample_detection.py only)
